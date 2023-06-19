@@ -12,6 +12,10 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    InicioComponent,
+    MenuComponent
   ]
 })
 export class InicioModule { }
